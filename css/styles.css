@@ -1,0 +1,59 @@
+
+#gallery-wrapper {
+	text-align: center;
+	font-family: 'Asset';
+	color: blue;
+	background-color: #cacaca;
+	overflow: hidden;
+}
+
+.image{
+	float: left;
+	width: 30%;
+	padding: 1%;
+}
+
+.image img, .wide-image img {
+	width: 100%;
+	height: 100%;
+}
+
+.wide-image {
+	width: 95%;
+	float: left;
+	padding: 2.5%;
+
+}
+
+.caption {
+	background: gray;
+	font-family: 'Quantico';
+	color: black;
+	position: relative;
+	bottom: 10px;
+}
+
+.extra-text {
+	font-family: 'Quantico';
+	color: blue;
+	float: left;
+	background-color: white;
+	border: black;
+	border-width: 5px;
+	position: relative;
+	width: 30%;
+	height: 200px;
+	margin: 1%;
+}
+
+.extra-stuff {
+	position: absolute;
+	top: 33%;
+	padding: 13px;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+
